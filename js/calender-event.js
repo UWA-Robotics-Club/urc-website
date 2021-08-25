@@ -17,38 +17,23 @@ document.addEventListener('DOMContentLoaded', function() {
       slotMaxTime: '21:00:00',
       //weekend: false,
       events: [
-        {
-          title: 'All Day Event',
-          start: '2021-08-02T14:00:00',
-          end: '2021-08-02T16:00:00',
-          url:'http://www.google.com',
-          color: regularWorkshop,
-
-        },
-        {
-          title: 'Industy Event',
-          start: '2021-08-05T18:00:00',
-          end: '2021-08-05T20:00:00',
-          url:'http://www.google.com',
-          color: industryEvent,
-
-        },
-        {
-          title: 'Hackathon',
-          start: '2021-08-24T13:00:00',
-          end: '2021-08-24T16:00:00',
-          url:'http://www.google.com',
-          color: generalEvent,
-
-        },
-        {
-          title: 'Industy Event',
-          start: '2021-08-24T15:00:00',
-          end: '2021-08-24T16:00:00',
-          url:'http://www.google.com',
-          color: regularWorkshop,
-
-        },
+        // {
+//           title: 'All Day Event',
+//           start: '2021-08-02T14:00:00',
+//           end: '2021-08-02T16:00:00',
+//           url:'http://www.google.com',
+//           color: regularWorkshop,
+// 
+//         },
+		{
+           title: 'Curtin Hackathon',
+           start: '2021-09-06T09:00:00',
+           end: '2021-09-06T17:00:00',
+           url:'https://www.facebook.com/events/212163597472526/',
+           color: generalEvent,
+ 
+         },
+    
 
       ]
     });
