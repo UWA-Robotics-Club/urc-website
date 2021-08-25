@@ -829,9 +829,9 @@ Compiled by Arjun Panicker
 
   @media screen and (max-width: 767px) {
 
-    .hero {
+    /* .hero {
       background-image: url('../images/hero_bg_mobile.png') ;
-    } 
+    }  */
 
     .navbar-brand {
       color: var(--white-color);
