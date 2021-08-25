@@ -142,7 +142,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
     border-radius: 0;
     overflow: visible;
     text-transform: none;
-    margin: 0;
+    margin: 0 0 0.5rem 0.5rem;
     font-family: inherit;
     font-size: inherit;
     line-height: inherit;
@@ -299,7 +299,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
     margin: 1 1rem;
   }
 .fc-direction-ltr .fc-toolbar > * > :not(:first-child) {
-    margin-left: .75em; /* space between */
+    margin-left: 0em; /* space between */
   }
 .fc-direction-rtl .fc-toolbar > * > :not(:first-child) {
     margin-right: .75em; /* space between */
@@ -1446,3 +1446,11 @@ A VERTICAL event
     color: inherit; /* natural color for navlinks */
   }
 
+@media screen and (max-width:767px){
+
+  .fc .fc-toolbar-title {
+    color: black;
+    font-size: 2.5em;
+    margin: 1 1rem;
+  }
+}

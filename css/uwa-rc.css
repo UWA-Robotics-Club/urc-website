@@ -351,12 +351,13 @@ Compiled by Arjun Panicker
     line-height: normal;
     padding-top: 0;
     padding-bottom: 0;
+    margin-right: 0;
   }
   .navbar-brand-logo{
     background: var(--white-color);
     width: 48px;
-    padding: 0.25rem;
-    margin-right: 1rem;
+    padding: 2px;
+    margin: 0 0.5rem 0.25rem 0;
     border-radius: 8px;
   }
 
@@ -382,7 +383,7 @@ Compiled by Arjun Panicker
     border: 0;
     padding: 0;
     cursor: pointer;
-    margin: 0 10px 0 0;
+    margin: 0 0.125rem 0 0;
     width: 30px;
     height: 35px;
     outline: none;
@@ -465,7 +466,7 @@ Compiled by Arjun Panicker
     background: var(--primary-card-bg);
     box-shadow: var(--box-shadow-primary);
     border-radius: 0 0 1.5rem 1.5rem;
-    padding: 2rem 2rem;
+    padding: 1.5rem 2rem;
     position: relative;
     min-height: 35vh;
   }
@@ -826,6 +827,21 @@ Compiled by Arjun Panicker
   }
 
   @media screen and (max-width: 767px) {
+
+    .hero {
+      background-image: url('../images/hero_bg_mobile.png') ;
+    } 
+
+    .navbar-brand {
+      color: var(--white-color);
+      font-size: var(--h4-font-size);
+      font-weight: var(--font-weight-bold);
+    }
+
+    .navbar-brand-logo {
+      width: 32px;
+    }
+    
 
     h1 {
       font-size: 38px;
