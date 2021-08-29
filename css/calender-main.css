@@ -414,6 +414,7 @@ When it's NOT activated, the fc-button classes won't even be in the DOM.
 .fc .fc-view-harness {
     flex-grow: 1; /* because this harness is WITHIN the .fc's flexbox */
     position: relative;
+    min-height: 65vh;
   }
 .fc {
 
