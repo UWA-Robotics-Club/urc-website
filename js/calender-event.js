@@ -2,12 +2,14 @@
 const regularWorkshop = '#e37268';
 const industryEvent = 'black';
 const generalEvent = '#617496';
+
 document.addEventListener('DOMContentLoaded', function() {
+    var currentDate = new Date().toISOString().slice(0, 10)
     var calendarEl = document.getElementById('calendar');
 
     var calendar = new FullCalendar.Calendar(calendarEl, {
       initialView: 'dayGridMonth',
-      initialDate: '2021-08-07',
+      initialDate: currentDate,
       headerToolbar: {
         left: 'title',
         right: 'prev,next today,dayGridMonth,timeGridWeek,timeGridDay'
