@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', function() {
       firstDay:1, //Monday
       slotMinTime: '09:00:00',
       slotMaxTime: '21:00:00',
-      weekends: false,
+      // weekends: false,
       // hiddenDays: [ 0 ],
 
       events: [
