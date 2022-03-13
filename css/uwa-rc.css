@@ -30,10 +30,10 @@ Compiled by Arjun Panicker
   }
 
   :root {
-    --primary-color:        #ffffff;
-    --primary-bg:           #354053;
-    --primary-highlight:    #ffd99d;
-    --primary-card-bg:      #ffffff;
+    --primary-color:        #74fea8;
+    --primary-bg:           #000000;
+    --primary-highlight:    #74fea8;
+    --primary-card-bg:      #eeeeee;
     --black :               #000000;
     /* --primary-bg:           #4b5c77; */
 
@@ -42,12 +42,12 @@ Compiled by Arjun Panicker
     --white-color:          #ffffff;
     /* --page-bg-color:        #171819; */
     /* --page-bg-color:        #354053; */
-    --page-bg-color:        #617496;
+    --page-bg-color:        #222222;
 
 
 
     --dark-color:           #171819;
-    --secondary-dark:       #354a69;
+    --secondary-dark:       #444444;
     /* --highlight-dark:       #e37268; */
     /* --highlight-light:      #f3c5be; */
 
@@ -147,7 +147,7 @@ Compiled by Arjun Panicker
   }
 
   .section {
-    padding: 2.5rem 0;
+    padding: 4rem 0rem;
 
   }
 
@@ -259,6 +259,10 @@ Compiled by Arjun Panicker
     opacity: 0.65;
   }
 
+  .mb-5 {
+    margin-bottom: 0.5rem!important;
+  }
+
 
   /*---------------------------------------
      MODAL              
@@ -298,17 +302,23 @@ Compiled by Arjun Panicker
   -----------------------------------------*/
 
   .feature {
-    background: var(--primary-card-bg);
-    padding: 1.5rem 0;
+    padding: 1rem 0rem 4rem;
   }
+
   .feature #signup-card{
     background: var(--primary-card-bg);
+    padding: 3rem 2rem;
     border-radius: 1.5rem;
     box-shadow: var(--box-shadow-primary);
 
   }
+
+  .feature h2 {
+    color: var(--primary-bg);
+  }
+
   .feature p {
-    color: var(--primary-color);
+    color: var(--primary-bg);
     font-size: var(--p-font-size);
     font-weight: var(--font-weight-light);
     line-height: 1.5em;
@@ -321,7 +331,7 @@ Compiled by Arjun Panicker
     padding-top: 2rem;
   }
   .about-working-hours > h2,h6{
-    color: var(--link-color);
+    color: var(--primary-bg);
   }
 
   .about-working-hours strong {
@@ -355,11 +365,12 @@ Compiled by Arjun Panicker
     margin-right: 0;
   }
   .navbar-brand-logo{
-    background: var(--white-color);
-    width: 48px;
+    /* background: var(--white-color); */
+    min-width: 170px;
+    height: 70px;
     padding: 2px;
-    margin: 0 0.5rem 0.25rem 0;
-    border-radius: 8px;
+    margin: 0.5rem;
+    /* border-radius: 8px; */
   }
 
   .nav-item .nav-link {
@@ -626,6 +637,20 @@ Compiled by Arjun Panicker
     color: var(--primary-bg);
   }
 
+  .team-info h3 a{
+    color: var(--primary-bg);
+    font-size: var(--h3-font-size);
+    font-weight: var(--font-weight-bold);
+    letter-spacing: -1px;
+    margin: 0;
+  }
+
+  .team-info h3 a:hover{
+    color: var(--link-color);
+    outline: none;
+    text-decoration: none;
+  }
+
   .team-info:hover{
     box-shadow: var(--box-shadow-hover);
   }
@@ -647,19 +672,36 @@ Compiled by Arjun Panicker
   .team-info .social-icon li {
     display: block;
   }
+
+  .team-info .social-icon .club-email {
+    margin: 0px 10px;
+    font-size: 27px;
+  }
   
 
+  /*---------------------------------------
+     CONTACT              
+  -----------------------------------------*/
+
+  #membership {
+    padding-top: 4rem;
+  }
+
+  .contact #membership-card {
+    padding: 3rem 2rem;
+  }
 
   /*---------------------------------------
      CONTACT              
   -----------------------------------------*/
   .contact {
     background: var(--page-bg-color);
-    }
+  }
   
-    .contact .container .row h2 {
-      color: var(--primary-bg);
-    }
+  .contact .container .row h2 {
+    color: var(--primary-bg);
+  }
+  
   .webform input,
   button#submit-button {
     height: calc(2.25rem + 20px);
@@ -669,6 +711,14 @@ Compiled by Arjun Panicker
   .webform textarea{
     background: var(--primary-card-bg);
 
+  }
+
+  #contact {
+    padding-top: 4rem;
+  }
+
+  #contact-section {
+    padding: 1rem 0rem 4rem;
   }
 
   .contact #contact-card{

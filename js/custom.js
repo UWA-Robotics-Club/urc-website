@@ -32,7 +32,7 @@
     e.preventDefault();
   
     $.ajax({
-        url: "https://script.google.com/macros/s/AKfycbxmLMJro9aESjP1YJCu0STuCJyIZTUbrIpgdXYhjxnnIZW3FyU/exec",
+        url: "https://script.google.com/macros/s/AKfycbyWZaiB6JYm-T397IFmT-sdh0jbsIFQxnTTOE1OtCdlpH_KaxWGgsKsJbL8wdwBuNR0/exec",
         method: "POST",
         dataType: "json",
         data: $(".contact-form").serialize(),
