@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
 
-            <a class="navbar-brand" href="home.html"><img class="navbar-brand-logo" src="images/svg-icons/club_logo_og.png" alt=""></a>
+            <a class="navbar-brand" href="https://uwarobotics.com.au"><img class="navbar-brand-logo" src="images/svg-icons/club_logo_og.png" alt=""></a>
             
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -117,7 +117,7 @@
                 </div>
 
                 <div class="d-flex flex-column justify-content-center mr-lg-auto col-lg-4 col-md-6 col-12">
-                    <h2 style="margin: 0;" data-aos="fade-up" data-aos-delay="300">117</h2>
+                    <h2 style="margin: 0;" data-aos="fade-up" data-aos-delay="300">121</h2>
                     <small style="margin-left: 5px;" data-aos="fade-up" data-aos-delay="400">Total Members</small>
                     <br>
                     <p data-aos="fade-up" data-aos-delay="500">Join UWA Robotics Club for all the amazing projects, awesome workshops and cool events. You can even get Altronics discount through us.</p>
@@ -133,27 +133,95 @@
             <div class="row">
 
                 <div class="col-lg-12 col-12 text-center mb-5">
-                    <h2 data-aos="fade-up" data-aos-delay="200">Current Projects</h2>
+                    <h2 id="projects-title" data-aos="fade-up" data-aos-delay="200">Current Projects</h2>
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-12" data-aos="fade-right" data-aos-delay="400">
+                <!-- Robot Coffee -->
+                <div class="col-lg-12 col-md-12 col-12" data-aos="fade-right" data-aos-delay="400">
                     <div class="workshop-thumb">
-                        <img src="images/projects/project1.jpg" class="img-fluid" alt="Project-1">
+                        <img src="images/projects/robot_coffee.jpg" class="img-fluid" alt="Project-1">
 
-                        <div class="workshop-info">
+                        <div class="workshop-info" style="min-height: 15vh;">
+                            <h3 class="mb-1">Robot Coffee</h3>
+                            
+                            <!-- <span><strong>Lead Project Handler</strong></span> -->
+                            <span class="workshop-price">YES, our club has its very own coffee making robot</span>
+
+                            <p class="mt-3">The coffee robot works by using a UR5 robot arm, which operates a commercial coffee machine to make an espresso shot. This helps augment the human aspect of making a coffee by taking out the repetitive process of making an espresso shot. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mars Rover -->
+                <div class="col-lg-12 col-md-12 col-12" data-aos="fade-left" data-aos-delay="400">
+                    <div class="workshop-thumb">
+                        <img src="images/projects/mars_rovers.jpg" class="img-fluid" alt="Project-1">
+
+                        <div class="workshop-info" style="min-height: 15vh;">
                             <h3 class="mb-1">Pioneer Robots</h3>
 
                             <!-- <span><strong>Lead Project Handler</strong></span> -->
-
-                            <!-- <span class="workshop-price">$50</span> -->
+                            <span class="workshop-price">#mars_rover</span>
 
                             <p class="mt-3">Autonomous driving robots using cameras, and a LiDAR sensor. Programmed in C, these robots will race autonomously around a circuit!</p>
                         </div>
                     </div>
                 </div>
+
+                <!-- Self Driving Car (STEM Project) -->
+                <div class="col-lg-6 col-md-6 col-12" data-aos="fade-right" data-aos-delay="400">
+                    <div class="workshop-thumb">
+                        <img src="images/projects/self_driving_car.jpg" class="img-fluid" alt="Project-3">
+
+                        <div class="workshop-info">
+                            <h3 class="mb-1">Self Driving Car</h3>
+
+                            <!-- <span><strong>Lead Project Handler</strong></span> -->
+                            <span class="workshop-price">STEM Project</span>
+
+                            <p class="mt-3">Self driving car using GPS, computer vision and LiDAR. Electrical and mechanical upgrades will also be performed on the vehicle!</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Drone Project -->
                 <div class="col-lg-6 col-md-6 col-12" data-aos="fade-left" data-aos-delay="400">
                     <div class="workshop-thumb">
-                        <img src="images/projects/project2.jpg" class="img-fluid" alt="Project-1">
+                        <img src="images/projects/drone.jpg" class="img-fluid" alt="Project-2">
+
+                        <div class="workshop-info">
+                            <h3 class="mb-1">Drone</h3>
+
+                            <!-- <span><strong>Lead Project Handler</strong></span> -->
+                            <!-- <span class="workshop-price">$50</span> -->
+
+                            <p class="mt-3">A DJI Drone development platform with potential for accessories and self driving capabilities to be added.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Maze Robot -->
+                <div class="col-lg-6 col-md-6 col-12" data-aos="fade-right" data-aos-delay="400">
+                    <div class="workshop-thumb">
+                        <img src="images/projects/maze_robot.png" class="img-fluid" alt="Project-2">
+
+                        <div class="workshop-info">
+                            <h3 class="mb-1">Maze Robot</h3>
+
+                            <!-- <span><strong>Lead Project Handler</strong></span> -->
+                            <!-- <span class="workshop-price">$50</span> -->
+
+                            <p class="mt-3">
+                                Design and program a maze solving robot! The technology involved is accessible for members of all levels of robotics expertise, with options to modify the robots with more advanced components.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-12" data-aos="fade-left" data-aos-delay="400">
+                    <div class="workshop-thumb">
+                        <img src="images/projects/nao.jpg" class="img-fluid" alt="Project-1">
 
                         <div class="workshop-info">
                             <h3 class="mb-1">NAO robots</h3>
@@ -166,37 +234,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-lg-6 col-md-6 col-12" data-aos="fade-right" data-aos-delay="400">
-                    <div class="workshop-thumb">
-                        <img src="images/projects/project3.jpg" class="img-fluid" alt="Project-2">
-
-                        <div class="workshop-info">
-                            <h3 class="mb-1">Drone</h3>
-
-                            <!-- <span><strong>Lead Project Handler</strong></span> -->
-
-                            <!-- <span class="workshop-price">$50</span> -->
-
-                            <p class="mt-3">A DJI Drone development platform with potential for accessories and self driving capabilities to be added.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 col-md-6 col-12" data-aos="fade-left" data-aos-delay="400">
-                    <div class="workshop-thumb">
-                        <img src="images/projects/project4.jpg" class="img-fluid" alt="Project-3">
-
-                        <div class="workshop-info">
-                            <h3 class="mb-1">Self Driving Car</h3>
-
-                            <!-- <span><strong>Lead Project Handler</strong></span> -->
-
-                            <!-- <span class="workshop-price">$50</span> -->
-
-                            <p class="mt-3">Self driving car using GPS, computer vision and LiDAR. Electrical and mechanical upgrades will also be performed on the vehicle!</p>
-                        </div>
-                    </div>
-                </div>
-                
             </div>
         </div>
     </section>
@@ -210,17 +247,58 @@
                 <div class="col-lg-12 col-12 text-center">
                     <h2 data-aos="fade-up" data-aos-delay="200">Event Schedule</h2>
                     <!-- <a href="https://www.facebook.com/uwaroboticsclub/events">Facebook Events</a> -->
-                    <p data-aos="fade-up" data-aos-delay="400">
+                    
+                    <!-- <p data-aos="fade-up" data-aos-delay="400">
                         <a href="https://www.facebook.com/UWARoboticsClub/events" style="font-weight: var(--font-weight-bold);">Facebook Events</a>
-                    </p>
+                    </p> -->
+
                     <!-- <a href="https://www.facebook.com/uwaroboticsclub"><img height="26" width="26" src="images/facebook-box-fill.svg" /></a> -->
                     
 <!--                     <h6 data-aos="fade-up">our weekly workshop schedule</h6> -->
                 </div>
+                
+                <section class="feature" id="feature" data-aos="fade-up" data-aos-delay="200">
+                    <div class="container">
+                        <div class="row align-items-start" id="signup-card">
+                            
+                            <div class="d-flex flex-column justify-content-center ml-lg-auto mr-lg-5 col-lg-5 col-md-12 col-12">
+                                <h2 class="mb-3" data-aos="fade-up" data-aos-delay="300">See the Schedule!</h2>
+                                <p data-aos="fade-up" data-aos-delay="400">
+                                    We have amzaing workshops and events scheduled for you in semester 1 2022. 
+                                    Check them out and if you had any questions, email us at <a href="mailto:club@uwarobotics.com.au" style="font-weight: var(--font-weight-bold);">club@uwarobotics.com.au</a>.
+                                    <br>
+                                    <br>
+                                    <br>
+                                    <b>See the full schedule on our Facebook page</b>
+                                    <br>
+                                    <a href="https://www.facebook.com/UWARoboticsClub/events" class="btn custom-btn bg-color mt-3 mb-3" data-aos="fade-up" data-aos-delay="500">Facebook Events</a> 
+                                </p>
+            
+                                <!-- <a href="#" class="btn custom-btn bg-color mt-3" data-aos="fade" data-aos-delay="300" data-toggle="modal" data-target="#membershipForm">Join UWA-RC!</a> -->
+                                
+                            </div>
+                            <div class="d-flex flex-column justify-content-center mr-lg-auto col-lg-4 col-md-12 col-12">
+                                <small data-aos="fade-up" data-aos-delay="400">Next Event</small>
+                                <h2 style="margin: 0;" data-aos="fade-up" data-aos-delay="300">Hello Robot Workshop</h2>
+                                <br>
+                                <p data-aos="fade-up" data-aos-delay="500">
+                                    <small data-aos="fade-up" data-aos-delay="400">(Friday 8 April 2022)</small>
+                                    <br>
+                                    Perfect for people new to robotics. Learning Arduino, by building a friendly robot that waves back at you. 
+                                </p>
+                                <a href="https://uwarobotics.square.site/product/URCHelloRobotWorkshop/9" class="btn custom-btn bg-color mt-3 mb-3" data-aos="fade-up" data-aos-delay="500">Hello Robot Tickets</a>
+                            </div>
 
-                <div id="workshop-table" class="col-lg-12 py-5 col-md-12 col-12">
+
+                            
+            
+                            
+                        </div>
+                    </div>
+                </section>
+                <!-- <div id="workshop-table" class="col-lg-12 py-5 col-md-12 col-12">
                     
-                    <!-- <table class="table table-bordered table-responsive schedule-table" data-aos="fade"
+                    <table class="table table-bordered table-responsive schedule-table" data-aos="fade"
                         data-aos-delay="300">
 
                         <thead class="thead-light">
@@ -302,9 +380,9 @@
                                 </td>
                             </tr>
                         </tbody>
-                    </table> -->
+                    </table>
                     <div id='calendar'></div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -411,24 +489,6 @@
                     </div>
                 </div>
 
-                <!-- Won Chen Qin -->
-                <div id="memberCard" class=" mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade" data-aos-delay="850">
-                    <div class="team-thumb">
-                        <img src="images/team/Won Chen.jpg" class="img-fluid">
-
-                        <div class="team-info d-flex flex-column">
-
-                            <h3>Won Chen Qin</h3>
-                            <span>Workshop Coordinator</span>
-
-                            <ul class="social-icon mt-3">
-                                <!-- <li><a href="https://www.linkedin.com/in/???/" class="fa fa-linkedin"></a></li> -->
-                                <li><a class="club-email" href="mailto:workshops@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
                 <!-- Agnibho Gangopadhyay  -->
                 <div id="memberCard" class=" mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade" data-aos-delay="700"> 
                     <div class="team-thumb">
@@ -437,7 +497,7 @@
                         <div class="team-info d-flex flex-column">
 
                             <h3><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/agnibho-gangopadhyay/">Agni Gangopadhyay</a></h3>
-                            <span>Project Coordinator</span>
+                            <span>Project Manager</span>
 
                             <ul class="social-icon mt-3">
                                 <!-- <li><a href="https://www.linkedin.com/in/agnibho-gangopadhyay/" class="fa fa-linkedin"></a></li> -->
@@ -447,7 +507,23 @@
                     </div>
                 </div>
 
-                
+                <!-- Won Chen Qin -->
+                <div id="memberCard" class=" mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade" data-aos-delay="850">
+                    <div class="team-thumb">
+                        <img src="images/team/Won Chen.jpg" class="img-fluid">
+
+                        <div class="team-info d-flex flex-column">
+
+                            <h3>Won Chen Qin</h3>
+                            <span>Workshop Manager</span>
+
+                            <ul class="social-icon mt-3">
+                                <!-- <li><a href="https://www.linkedin.com/in/???/" class="fa fa-linkedin"></a></li> -->
+                                <li><a class="club-email" href="mailto:workshops@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
 
                 <!-- Tiziano Wehrli -->
                 <div id="memberCard" class=" mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade" data-aos-delay="850">
@@ -457,11 +533,11 @@
                         <div class="team-info d-flex flex-column">
 
                             <h3>Tiziano Wehrli</h3>
-                            <span>Project Coordinator</span>
+                            <span>Workshop Coordinator</span>
 
                             <ul class="social-icon mt-3">
                                 <!-- <li><a href="https://www.linkedin.com/in/???/" class="fa fa-linkedin"></a></li> -->
-                                <li><a class="club-email" href="mailto:projects@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
+                                <li><a class="club-email" href="mailto:workshops@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -475,11 +551,11 @@
                         <div class="team-info d-flex flex-column">
 
                             <h3>Alex Hoffman</h3>
-                            <span>Committee Member</span>
+                            <span>Event Coordinator</span>
 
                             <ul class="social-icon mt-3">
                                 <!-- <li><a href="https://www.linkedin.com/in/???/" class="fa fa-linkedin"></a></li> -->
-                                <li><a class="club-email" href="mailto:club@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
+                                <li><a class="club-email" href="mailto:events@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
                             </ul>
                         </div>
                     </div>
@@ -493,7 +569,7 @@
                         <div class="team-info d-flex flex-column">
 
                             <h3><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/arjunspanicker/">Arjun Panicker</a></h3>
-                            <span>Marketing Coordinator</span>
+                            <span>Marketing Designer</span>
 
                             <ul class="social-icon mt-3">
                                 <!-- <li><a href="https://www.linkedin.com/in/arjunspanicker/" class="fa fa-linkedin"></a></li> -->
@@ -511,16 +587,64 @@
                         <div class="team-info d-flex flex-column">
 
                             <h3><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jennifer-in/">Jennifer In</a></h3>
-                            <span>Marketing Coordinator</span>
+                            <span>Social Media Manager</span>
 
                             <ul class="social-icon mt-3">
-                                <!-- <li><a href="https://www.linkedin.com/in/jennifer-in/" class="fa fa-linkedin"></a></li> -->
                                 <li><a class="club-email" href="mailto:marketing@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
                 
+                <!-- Naveen Nimalan -->
+                <div id="memberCard" class=" mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade" data-aos-delay="700"> 
+                    <div class="team-thumb">
+                        <img src="images/team/default.jpg" class="img-fluid">
+
+                        <div class="team-info d-flex flex-column">
+
+                            <h3><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/naveen-nimalan-16a15b1ba/">Naveen Nimalan</a></h3>
+                            <span>Fresher Rep</span>
+
+                            <ul class="social-icon mt-3">
+                                <li><a class="club-email" href="mailto:club@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Ryan Bunschoten -->
+                <div id="memberCard" class=" mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade" data-aos-delay="700"> 
+                    <div class="team-thumb">
+                        <img src="images/team/default.jpg" class="img-fluid">
+
+                        <div class="team-info d-flex flex-column">
+                            <h3><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/ryan-bunschoten-542127237/">Ryan Bunschoten</a></h3>
+                            <span>Fresher Rep</span>
+
+                            <ul class="social-icon mt-3">
+                                <li><a class="club-email" href="mailto:club@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Wayne Swanepoel -->
+                <div id="memberCard" class=" mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade" data-aos-delay="700"> 
+                    <div class="team-thumb">
+                        <img src="images/team/default.jpg" class="img-fluid">
+
+                        <div class="team-info d-flex flex-column">
+
+                            <h3><a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/wayne-swanepoel-b39890143/">Wayne Swanepoel</a></h3>
+                            <span>Fresher Rep</span>
+
+                            <ul class="social-icon mt-3">
+                                <li><a class="club-email" href="mailto:club@uwarobotics.com.au"><i class="ri-mail-fill"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
                 <!-- Sonal Perera -->
                 <!-- <div id="memberCard" class=" mt-lg-0 mt-md-0 col-lg-4 col-md-6 col-12" data-aos="fade" data-aos-delay="850">
                     <div class="team-thumb">

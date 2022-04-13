@@ -39,29 +39,29 @@ document.addEventListener('DOMContentLoaded', function() {
             color: generalEvent,
          },
          // Added: 21 Feb 2022
-         {
-            title: 'Hello Robot Workshop',
-            start: '2022-03-11T13:00:00',
-            end: '2022-03-11T15:00:00',
-            url:'',
-            color: regularWorkshop,
-         },
-         // Added: 21 Feb 2022
-         {
-            title: 'Mechelmech Networking Night',
-            start: '2022-03-15T18:00:00',
-            end: '2022-03-15T21:30:00',
-            url:'',
-            color: specialEvent,
-         },
-         // Added: 21 Feb 2022
-         {
-            title: 'Tech vs Elec Quiz Night',
-            start: '2022-04-01T18:00:00',
-            end: '2022-04-01T21:30:00',
-            url:'',
-            color: specialEvent,
-         },
+         // {
+         //    title: 'Hello Robot Workshop',
+         //    start: '2022-03-11T13:00:00',
+         //    end: '2022-03-11T15:00:00',
+         //    url:'',
+         //    color: regularWorkshop,
+         // },
+         // // Added: 21 Feb 2022
+         // {
+         //    title: 'Mechelmech Networking Night',
+         //    start: '2022-03-15T18:00:00',
+         //    end: '2022-03-15T21:30:00',
+         //    url:'',
+         //    color: specialEvent,
+         // },
+         // // Added: 21 Feb 2022
+         // {
+         //    title: 'Tech vs Elec Quiz Night',
+         //    start: '2022-04-01T18:00:00',
+         //    end: '2022-04-01T21:30:00',
+         //    url:'',
+         //    color: specialEvent,
+         // },
       ]
     });
 
